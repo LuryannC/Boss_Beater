@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="40" height="44" tilewidth="32" tileheight="32" infinite="0" nextlayerid="9" nextobjectid="1">
+ <tileset firstgid="1" source="desert.tsx"/>
+ <tileset firstgid="49" source="Spawn/TX Tileset Wall.tsx"/>
+ <tileset firstgid="305" source="Spawn/TX Props.tsx"/>
+ <layer id="1" name="Ground" width="40" height="44">
+  <properties>
+   <property name="cost" type="int" value="1"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt2U0KgCAURWFXUK3AZjVt/6tr0kCkROjHg53BhQeCfNyJwoshhNhh5pN5PHJ1ns9fJ/URo0+fPn36mLnybQAbpb8F7qP3d9e3wn30/vTpa+17+j2pva+X/vSxfLVvkv3921f6OxJ8raNPX6sMiW8CePTpI4XgK+1cch9tP/NWfzvDP8iq
+  </data>
+ </layer>
+ <layer id="5" name="Top_walls" width="40" height="44">
+  <properties>
+   <property name="cost" type="int" value="10"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztljEOgDAMA/vH/v8vDGwMtHHcJFV8EmIh9tEi1DGEeJmLy/pcB79VF+LHdGXlsv3Y7x2Rx8KTHfFdezqy/wcnZlCsXVFeaK/8fL0ZbpZu+fm65VezuwvV93d+7pHsdN+wfvLDu286H8gP6618vkdnUFh+bE9GR7QfI6NS3io3K2c3968LmWHA8jtFdT8huvEA6550Ew==
+  </data>
+ </layer>
+ <layer id="4" name="Wall" width="40" height="44">
+  <properties>
+   <property name="cost" type="int" value="10"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztmLlOA0EMhucJAs/EUaSFUNCSUKShCOF6e9ZSLFl/7BnP4SVI+0uWEOOMvZ/38DilMVpNdnWy60F7jtRK/L3kp+tmslvD7hr8Rushs7Zx+r0OyoVFLL5O9pPx8+b3kcay1GLdT7YF24n1F2V9rezTw5K5acyeJnsHO4r1g7KuXSex/ExtHHE/yWx37l6UZIosazha3CSzI/7IIckUr53vSQ9Hi1sLM0vMsoUj5sfcWphZYpYYq5Qf1ZbrGsENhRypzrkay+uJ4IbSOG4M35TO85tLtflRbSPriqI6c409+ZFPZF1RB4htyeMTpSW/Pnli8/tozmejJja/j+Z8Nmpic18e2YP3xKZ74DH93f1Xin3pz8eSX19s9in1OaMl+zpv/zInw5b+6hLzk31OzZmlVfzOkz176fvxDP+L5LhXYpW+XfibCI7Ejc7leIb1sLDOfiM5IoOasxh/p7HOvXMdOXPTuNX2JRZH3q9WyIzE3N4a9rM4kiRLz3zyO+lzphZuqNxcB2OxcvO/3jkTKjfXkfLmx8wi+mBt7uidT45kZkmbO3rnk1HMFv1v/QLJEnTP
+  </data>
+ </layer>
+ <layer id="6" name="Decoration" width="40" height="44">
+  <properties>
+   <property name="cost" type="int" value="10"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt00ERwCAUQ0FwVQlIqIRKqAQkILcOMtz409lV8A5JawAAsO/upwuyJ/RdBdrf0DAK9PFv6QOzwP7SB1aBPgAAgF0fLbUDYg==
+  </data>
+ </layer>
+ <layer id="8" name="Writing" width="40" height="44">
+  <properties>
+   <property name="cost" type="int" value="0"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt06ENACAQBEEoixIohRIohW6xGF6SD5mxZ9ZcKQAA8I9R71sLtldm0NAT9PG3DB+IRB9YydsBAABOG2tcAoc=
+  </data>
+ </layer>
+ <objectgroup id="2" name="ExitZone"/>
+ <objectgroup id="3" name="NoGo"/>
+</map>
